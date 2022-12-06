@@ -1,18 +1,16 @@
-let num=9;
 
-let count=0;
+let num=9
 
-for (let i=0;i<=num/2;i++){
+let count=0
 
-	if(num%i==0){
-	count++;
-	}
+for(let i=1;i<=num;i++){
+  
+  if(num%i==0)
+    count++;
 }
 
-if(count==0){
-console.log("Yes Prime");
-}
-
-else{
-console.log("Not Prime");
+if(count==2){
+  console.log("yes");
+}else{
+  console.log("No");
 }
