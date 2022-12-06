@@ -1,10 +1,13 @@
-let str = "vasu";
+let str = "nitin";
 
 let emptystr="";
 for (let i=str.length-1;i>=0;i--){
 	
 	emptystr+=str[i];	
+
 }
+  console.log(str);
+  console.log(emptystr);
 
 if(str==emptystr){
 console.log("Palindrome");
@@ -13,3 +16,4 @@ console.log("Palindrome");
 else{
 console.log("Not Palindrome");
 }
+
